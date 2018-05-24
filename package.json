@@ -1,0 +1,52 @@
+{
+  "name": "blue-button-generate",
+  "version": "1.5.7",
+  "description": "Blue Button CCDA Generator.",
+  "main": "./index.js",
+  "browser": {
+    "./lib/xmlutil.js": "./browser/lib/xmlutil.js"
+  },
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+  },
+  "author": "Dmitry Kachaev <dmitry@amida-tech.com>",
+  "contributors": [
+    {
+      "name": "Matthew McCall",
+      "email": "matt@amida-tech.com"
+    },
+    {
+      "name": "Afsin Ustundag",
+      "email": "afsin.ustundag@us.pwc.com"
+    },
+    {
+      "name": "Matt Martz",
+      "email": "matt.martz@amida-tech.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "bundleDependencies": true,
+  "dependencies": {
+    "blue-button-meta": "1.5.0",
+    "blue-button-util": "~1.5.0",
+    "libxmljs": "^0.18.0",
+    "moment": "~2.19.3",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjpadgett/blue-button-generate"
+  },
+  "keywords": [
+    "bluebutton"
+  ],
+  "homepage": "https://github.com/sjpadgett/blue-button-generate"
+}
