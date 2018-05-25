@@ -3,6 +3,7 @@ blue-button-generate
 This version was forked from Amida Tech and modified to update dependencies and add additional templates i.e Author support.
 Blue Button CCDA Generator
 
+npm i oe-blue-button-generate
 
 blue-button-generate is a module to generate CCDA files from JSON data.  Currently it only supports [blue-button](https://github.com/amida-tech/blue-button) JSON data model.
 
