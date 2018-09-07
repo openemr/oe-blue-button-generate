@@ -1,6 +1,6 @@
 {
   "name": "oe-blue-button-generate",
-  "version": "1.5.9",
+  "version": "1.5.10",
   "description": "Blue Button CCDA Generator.",
   "main": "./index.js",
   "browser": {
